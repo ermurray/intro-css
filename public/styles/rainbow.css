@@ -1,0 +1,155 @@
+main {
+  position: absolute;
+  top: 200;
+  width: 100%
+
+}
+
+p {
+  position: absolute;
+  display: block;
+  top: 200px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 1;
+  width: 100%;
+  height: 120px;
+  background-color: salmon;
+}
+
+.section {
+  position: relative;
+  z-index: 0;
+  min-height: 9000px;
+  text-align: center;
+  border-bottom: solid black;
+}
+.section2 {
+  margin-top: 120px;
+  z-index: 0;
+  min-height:200px;
+  text-align: center;
+  border-bottom: solid black;
+}
+
+.navlink {
+  height: 40px;
+  width: 80px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  margin-bottom: -40px;
+}
+
+.navbuttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.rightNav {
+  margin-right: 40px;
+}
+
+.outer {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  background-color: blue;
+
+ 
+} 
+.navbuttons::after {
+  content: "this being attached to nav buttons breaks our negative margin";
+color: black;
+  background-color: aqua;
+}
+
+.inner {
+  /* position: relative; */
+  height: 60px;
+  width: 60px;
+  background-color: blueviolet;
+
+}
+.center {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 30px;
+  background-color: hotpink;
+}
+
+.rainbow {
+  
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  height: 240px;
+  width: 500px;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+.rainbow2 {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 500px;
+  height: 250px;
+  box-shadow:
+      0 0 0 10px #ff0000,
+      0 0 0 20px #ff7700,
+      0 0 0 30px #FFDD00,
+      0 0 0 40px #00FF00,
+      0 0 0 50px #0000FF,
+      0 0 0 60px #C77DF3,
+      0 0 0 70px #8A2BE2;
+  border-radius: 150px;
+  transform: rotate(-90deg);
+  position: relative;
+}
+.rainbow2::before {
+    content: '';
+    width: 150%;
+    height: 300%;
+    background-color: white;
+    position: absolute;
+    left: -70%;
+    top: -100%;
+  }
