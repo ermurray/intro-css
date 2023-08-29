@@ -60,35 +60,14 @@ p {
   margin-right: 40px;
 }
 
-.outer {
-  position: relative;
-  height: 120px;
-  width: 120px;
-  background-color: blue;
 
- 
-} 
 .navbuttons::after {
   content: "this being attached to nav buttons breaks our negative margin";
 color: black;
   background-color: aqua;
 }
 
-.inner {
-  /* position: relative; */
-  height: 60px;
-  width: 60px;
-  background-color: blueviolet;
 
-}
-.center {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-  height: 30px;
-  width: 30px;
-  background-color: hotpink;
-}
 
 .rainbow {
   

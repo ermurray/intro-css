@@ -2,9 +2,25 @@
 Lighthouse labs webflex Intro to css lecture
 
 ## Topics
-- [x] Semantic HTML
-- [x] reset/normalize
-- [x] Box sizing....
-- [x] CSS & devtools
-- [x] CSS specificity / selectors: when to use ids vs classes vrs generic
+- [ ] Semantic HTML
+- [ ] reset/normalize
+- [ ] Box sizing....
+- [ ] CSS & devtools
+- [ ] CSS specificity / selectors: when to use ids vs classes vrs generic (high level, detail for breakout lecture)
 - [ ] Flexbox
+
+
+## What is a web page made of?
+1. HTML (Hypertext Markup Language): Page Content
+2. CSS (Cascading Style Sheets): Defines the appearence of  the content
+3. JS (JavaScript): In-page logic, interactivity
+
+## Semantic HTML
+
+- Valid html Structure
+```html
+<html> 
+  <head></head> <!-- all configuration for the document -->
+  <body></body> <!-- this is our content -->
+</html>
+```
