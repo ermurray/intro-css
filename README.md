@@ -11,9 +11,6 @@ Lighthouse labs webflex Intro to css lecture
 
 
 ## What is a web page made of?
-1. HTML (Hypertext Markup Language): Page Content
-2. CSS (Cascading Style Sheets): Defines the appearence of  the content
-3. JS (JavaScript): In-page logic, interactivity
 
 ## Semantic HTML
 
